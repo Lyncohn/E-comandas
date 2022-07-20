@@ -12,32 +12,48 @@
 <body>
     
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-        <a class="navbar-brand" href="#">E-Comanda</a>
+        <a class="navbar-brand text-dark">E-Comanda</a>
         <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle Navigation">
-            <span class="navbar toggle-icon"></span>
+            <span class="navbar-toggler-icon"></span>
         </button>
       
         <div id="my-nav" class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <i class="nav-link" href="#"> <i class="fa-solid fa-users"></i> Empresa</i></i>
+                    <a class="nav-link text-white" href="src/empresa/view/list-empresa.html"><i class="fa-solid fa-users"></i> Empresa</a>
                 </li>
                 <li class="nav-item">
-                    <i class="nav-link" href="#"> <i class="fa-solid fa-cash-register"></i> Caixa</i></i>
+                    <a class="nav-link" href="#"> <i class="fa-solid fa-cash-register"></i> Caixa</a>
                 </li>
                 <li class="nav-item">
-                    <i class="nav-link" href="#"> <i class="fa-solid fa-money-bill-wave"></i> Venda</i></i>
+                    <a class="nav-link" href="#"> <i class="fa-solid fa-money-bill-wave"></i> Venda</a>
                 </li>
                 <li class="nav-item">
-                    <i class="nav-link" href="#"> <i class="fa-solid fa-user"></i> Cliente</i></i>
+                    <a class="nav-link" href="#"> <i class="fa-solid fa-user"></i> Cliente</a>
                 </li>
                 <li class="nav-item">
-                    <i class="nav-link" href="#"> <i class="fa-solid fa-cart-arrow-down"></i> Produto</i></i>
+                    <a class="nav-link" href="#"> <i class="fa-solid fa-cart-arrow-down"></i> Produto</a>
                 </li>
             </ul>
             <a href="" class="nav-link text-white"><i class="fa-solid fa-arrow-right-from-bracket"></i> Sair do Sistema</a>
         </div>
       </nav>
 
+      <div class="container mt-5" id="content">
+        <div class="row justify-content-center mt-3">
+            <div class="col-12">
+                <h1 class="text-center text-danger">
+                    Bem vindo ao sistema gerenciador de comandas.
+                </h1>
+            </div>
+        </div>
+      </div>
 </body>
+
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="libs/sweetAlert/dist/sweetalert2.all.js"></script>
+    <script src="libs/DataTables/datatables.js"></script>
+    <script src="js/menu.js"></script>
+
 </html>
